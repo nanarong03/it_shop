@@ -1,9 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.admin.master')
 
-@section('content')
+@section('text')
+        <center>
+	        <img src="{{asset('admin/images/logo.png') }}">
+        </center>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Reset Password') }}</div>
 

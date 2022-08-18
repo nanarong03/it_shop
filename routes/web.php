@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +22,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+//admin index
+Route::get('/admin/index', [HomeController::class, 'admin'])->name('admin');
+
+
+//route user
+Route::get('/admin/user/index',[UserController::class, 'index'])->name('user.index') ;
+

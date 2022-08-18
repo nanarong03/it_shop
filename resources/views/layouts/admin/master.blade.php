@@ -30,7 +30,7 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('{{asset('admin/images/bg-01.jpg') }}');">
+		<div class="container-login100" style="background-image: url('{{asset('admin/images/bg-01.jpg') }}">
 			<div class="wrap-login100">
 				@yield('text')
 			</div>
