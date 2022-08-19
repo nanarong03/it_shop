@@ -3,7 +3,9 @@
 use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-;
+use App\Http\Controllers\Admin\CategoryController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +31,11 @@ Route::get('/admin/index', [HomeController::class, 'admin'])->name('admin');
 
 
 //route user
-Route::get('/admin/user/index',[UserController::class, 'index'])->name('user.index') ;
+Route::get('/admin/user/index',[UserController::class, 'index'])->name('user.index');
 
+
+//route category
+Route::get('/admin/category',[HomeController::class, 'category'])->name('category.index');
+
+//route product
+Route::get('/admin/product',[HomeController::class, 'product'])->name('product.index');
