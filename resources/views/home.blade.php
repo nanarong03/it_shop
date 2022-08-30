@@ -162,7 +162,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">My Profile</h3>
                                     <p class="card-text">
-                                        Name : Nanarong
+                                        Name : Kittiphop
                                     </p>
 
                                     <p class="card-text">
@@ -170,11 +170,11 @@
                                     </p>
 
                                     <p class="card-text">
-                                        Email : taerobot1029@gmail.com
+                                        Email : kittiphop5050@gmail.com
                                     </p>
 
                                     <p class="card-text">
-                                        Phone : 097-212-6801
+                                        Phone : 094-574-5722
                                     </p>
 
                                     <a href="edit_profile.html" class="btn btn-outline-success">Home</a>
