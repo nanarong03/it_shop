@@ -39,3 +39,5 @@ Route::get('/admin/category',[HomeController::class, 'category'])->name('categor
 
 //route product
 Route::get('/admin/product',[HomeController::class, 'product'])->name('product.index');
+Route::get('/admin/product/create',[ProductController::class, 'createform'])->name('product.create');
+Route::post('/admin/product/insert',[ProductController::class, 'insert'])->name('product.insert');
